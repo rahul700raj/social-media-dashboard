@@ -1,0 +1,73 @@
+.create-post-page {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.create-post-form {
+  background-color: var(--bg-primary);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px var(--shadow);
+}
+
+.create-post-form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.create-post-form label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.create-post-form input,
+.create-post-form textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  transition: border-color 0.2s ease;
+}
+
+.create-post-form input:focus,
+.create-post-form textarea:focus {
+  border-color: var(--primary);
+}
+
+.create-post-form input.error,
+.create-post-form textarea.error {
+  border-color: var(--danger);
+}
+
+.image-preview {
+  margin-top: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.image-preview img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.875rem;
+  background-color: var(--primary);
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.submit-button:hover:not(:disabled) {
+  background-color: var(--primary-dark);
+}
