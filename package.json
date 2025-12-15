@@ -1,0 +1,38 @@
+{
+  "name": "social-media-dashboard",
+  "version": "1.0.0",
+  "description": "Modern Social Media Dashboard with React, Redux, and advanced features",
+  "author": "Rahul Mishra <rm2778643@gmail.com>",
+  "contact": "+91 9693243217",
+  "private": false,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0",
+    "react-redux": "^9.0.4",
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.2",
+    "react-hook-form": "^7.49.2",
+    "react-hot-toast": "^2.4.1",
+    "lucide-react": "^0.294.0"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/user-event": "^14.5.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "vitest": "^1.0.4",
+    "jsdom": "^23.0.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src --ext js,jsx"
+  }
+}
